@@ -1,0 +1,103 @@
+html,
+body {
+    height: 100%;
+    width: 2800px;
+    margin: 0;
+    padding: 0;
+    margin-top: 6px;
+}
+
+.row {
+    height: 16px;
+}
+
+.row:nth-child(even) {
+    padding-left: 10px;
+}
+
+.node {
+    display: inline-block;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.normal {
+    background-image: url('/assets/normal.svg');
+    background-size: 5px;
+}
+
+.water {
+    background-image: url('/assets/water.svg');
+    background-size: 12px;
+}
+
+.forest {
+    background-image: url('/assets/tree.svg');
+    background-size: 14px;
+}
+
+.mountain {
+    background-image: url('/assets/mountain.svg');
+    background-size: 14px;
+}
+
+.desert {
+    background-image: url('/assets/desert.svg');
+    background-size: 14px;
+}
+
+.magic {
+    background-image: url('/assets/magic.svg');
+    background-size: 9px;
+}
+
+.bigmountain {
+    background-image: url('/assets/bigmountain.svg');
+    background-size: 14px;
+}
+
+.volcano {
+    background-image: url('/assets/volcano.svg');
+    background-size: 14px;
+}
+
+.node:hover {
+    outline: #000 inset 1px;
+}
+
+.node img {
+    height: 10px;
+    width: 10px;
+}
+
+.admin-panel {
+    position: fixed;
+    width: 200px;
+    top: 15px;
+    right: 15px;
+    padding: 8px 8px;
+    border-radius: 4px;
+    border: 1px solid #e5e5e5;
+    background-color: rgba(255,255,255,0.9);
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+.save {
+    margin-top: 14px;
+}
+
+.message {
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.warning {
+    color: red;
+}
+
+.success {
+    color: green;
+}
